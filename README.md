@@ -1,2 +1,2 @@
-# feeling_analyser
-Software AI feeling analyser for 2022 Brazilian's President Elections on Twitter API.
+# Feeling Analyser for President Elections in Brazil
+Using KNN (K-Nearest Neighbors), we built a feeling analyser for each comment on Twitter about 4 president cadidates. Comments have 3 classes: pos(Positive), neg(Negative) and neu(Neutral), wich we use to classify the dataset with 800 comments. To split the dataset, was used Cross-Validation with 80% for training and 20% for tests. Finally, built the model and got n comments on Twitter each 15 minutes and classify reputation of each candidate.
